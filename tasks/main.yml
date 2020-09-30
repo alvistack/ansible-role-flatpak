@@ -16,7 +16,6 @@
 
 - name: include default variables
   include_vars: "../vars/main.yml"
-  tags: flatpak
 
 - name: include release specific variables
   include_vars: "{{ lookup('first_found', _params) }}"
@@ -31,7 +30,6 @@
       paths:
         - "../vars"
   ignore_errors: true
-  tags: flatpak
 
 - name: include release specific tasks
   include_tasks: "{{ lookup('first_found', _params) }}"
@@ -46,7 +44,6 @@
       paths:
         - "."
   ignore_errors: true
-  tags: flatpak
 
 - name: flatpak remote-add
   flatpak_remote:
@@ -54,11 +51,9 @@
     flatpakrepo_url: "{{ item.flatpakrepo_url }}"
     state: "{{ item.state }}"
   loop: "{{ _flatpak_remote }}"
-  tags: flatpak
 
 - name: flatpak update
   command: flatpak update --assumeyes
   register: result
   until: result is succeeded
   changed_when: result is not succeeded
-  tags: flatpak
