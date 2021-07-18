@@ -1,9 +1,13 @@
 # Ansible Role for Flatpak
 
-[![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-flatpak/master)](https://gitlab.com/alvistack/ansible-role-flatpak/-/pipelines)
-[![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-flatpak.svg)](https://github.com/alvistack/ansible-role-flatpak/releases)
-[![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-flatpak.svg)](https://github.com/alvistack/ansible-role-flatpak/blob/master/LICENSE)
-[![Ansible Role](https://img.shields.io/badge/galaxy-alvistack.flatpak-blue.svg)](https://galaxy.ansible.com/alvistack/flatpak)
+[![Gitlab pipeline
+status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-flatpak/master)](https://gitlab.com/alvistack/ansible-role-flatpak/-/pipelines)
+[![GitHub
+release](https://img.shields.io/github/release/alvistack/ansible-role-flatpak.svg)](https://github.com/alvistack/ansible-role-flatpak/releases)
+[![GitHub
+license](https://img.shields.io/github/license/alvistack/ansible-role-flatpak.svg)](https://github.com/alvistack/ansible-role-flatpak/blob/master/LICENSE)
+[![Ansible
+Role](https://img.shields.io/badge/galaxy-alvistack.flatpak-blue.svg)](https://galaxy.ansible.com/alvistack/flatpak)
 
 Ansible Role for Flatpak Installation.
 
@@ -39,7 +43,8 @@ This role could simply deploy to `localhost` as below:
 ## License
 
   - Code released under [Apache License 2.0](LICENSE)
-  - Docs released under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/)
+  - Docs released under [CC
+    BY 4.0](http://creativecommons.org/licenses/by/4.0/)
 
 ## Author Information
 
