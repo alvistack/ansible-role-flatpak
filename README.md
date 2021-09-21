@@ -1,5 +1,7 @@
 # Ansible Role for Flatpak
 
+<img src="/alvistack.svg" width="75" alt="AlviStack">
+
 [![Gitlab pipeline status](https://img.shields.io/gitlab/pipeline/alvistack/ansible-role-flatpak/master)](https://gitlab.com/alvistack/ansible-role-flatpak/-/pipelines)
 [![GitHub release](https://img.shields.io/github/release/alvistack/ansible-role-flatpak.svg)](https://github.com/alvistack/ansible-role-flatpak/releases)
 [![GitHub license](https://img.shields.io/github/license/alvistack/ansible-role-flatpak.svg)](https://github.com/alvistack/ansible-role-flatpak/blob/master/LICENSE)
