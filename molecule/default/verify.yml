@@ -19,6 +19,6 @@
   become: true
   tasks:
     - name: flatpak --version
-      command: flatpak --version
+      ansible.builtin.command: flatpak --version
       register: result
       changed_when: result is not succeeded
