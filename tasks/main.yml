@@ -54,7 +54,7 @@
       skip: true
 
 - name: flatpak remote-add
-  flatpak_remote:
+  community.general.flatpak_remote:
     name: "{{ item.name }}"
     flatpakrepo_url: "{{ item.flatpakrepo_url }}"
     state: "{{ item.state }}"
