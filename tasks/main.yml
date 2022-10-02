@@ -61,7 +61,8 @@
   loop: "{{ _flatpak_remote }}"
 
 - name: flatpak update
-  ansible.builtin.command: flatpak update --assumeyes
+  ansible.builtin.command:
+    cmd: flatpak update --assumeyes
   register: result
   until: result is succeeded
   changed_when: result is not succeeded
