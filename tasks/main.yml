@@ -59,10 +59,3 @@
     flatpakrepo_url: "{{ item.flatpakrepo_url }}"
     state: "{{ item.state }}"
   loop: "{{ _flatpak_remote }}"
-
-- name: flatpak update
-  ansible.builtin.command:
-    cmd: flatpak update --assumeyes
-  register: result
-  until: result is succeeded
-  changed_when: result is not succeeded
