@@ -15,4 +15,4 @@
 # limitations under the License.
 
 _flatpak_remote:
-  - { state: present, name: flathub, flatpakrepo_url: http://flathub.org/repo/flathub.flatpakrepo }
+  - { state: present, name: flathub, flatpakrepo_url: https://dl.flathub.org/repo/flathub.flatpakrepo }
